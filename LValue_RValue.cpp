@@ -1,6 +1,4 @@
-#include <iostream>
-
-using namespace std;
+#include "Header.h"
 
 int GetValue()
 {
@@ -54,7 +52,7 @@ void PrintName3(std::string&& Name)
     cout << "Rvalue: " << Name << endl;
 }
 
-int main()
+void LValue_RValue()
 {
     //Lvalues are basically variables that have storage
     // Rvalues are temporary values
@@ -118,6 +116,5 @@ int main()
     //because the compile will search first rvalue reference.
     //This is very usefull in move semantics
     //--------------------------------------------------------
-
-    return 0;
+    return;
 }

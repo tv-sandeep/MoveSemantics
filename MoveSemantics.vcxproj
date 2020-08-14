@@ -147,7 +147,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MoveSemantics.cpp" />
+    <ClCompile Include="LValue_RValue.cpp" />
+    <ClCompile Include="MovSemantics1.cpp" />
+    <ClCompile Include="MovSemantics2.cpp" />
+    <ClCompile Include="MovSemantics3.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
